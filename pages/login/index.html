@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>LOGIN</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="w-full h-screen bg-black text-white"></div>
-</body>
-</html>
+    <div class="w-full h-screen bg-[#201B2C] text-white flex">
+        <div class="w-[50%] h-full pl-[100px] pt-[60px]">
+            <h1 class="text-4xl font-bold text-[#D53569]">Faça Login</h1>
+            <h1 class="text-4xl font-bold text-[#D53569]">E entre para o nosso time</h1>
+            <img src="virtu.svg" width="500px" alt="imagem-animada">
+        </div>
+        <div class="w-1/2 h-full flex items-center justify-center">
+            <div class="w-[400px] h-[400px] bg-[#2F2942] rounded-xl">
+                <div class="w-full h-[20%] flex items-center justify-center">
+                    <h1 class="text-3xl font-bold text-[#D53569]">LOGIN</h1>
+                </div>
+                <div class="w-full h-[60%] px-[20px] flex flex-col gap-[10px]">
+                    <div class="w-full flex flex-col">
+                        <label class="font-bold" for="user">Usuário</label>
+                        <input 
+                            class="w-full h-[45px] rounded-md border-none
+                             bg-[#514768] px-2 outline-none"
+                            type="text" 
+                            id="user"
+                            placeholder="Digite seu nome de usuário"
+                        >
+                    </div>
+                    <div class="">
+                        <label class="font-bold" for="pass">Senha</label>
+                        <input 
+                            class="w-full h-[45px] rounded-md border-none
+                             bg-[#514768] px-2 outline-none"
+                            type="password" 
+                            id="pass"
+                            placeholder="Digite sua senha"
+                        >
+                    </div>
+                </div>
+                <div class="w-full h-[20%] flex justify-center">
+                    <button class="w-[90%] h-[40px] rounded-md bg-[#D53569] font-bold shadow-lg shadow-[#D5356867]">LOGIN</button>
+                </div>
+            </div>
+        </div>
+        </div>
